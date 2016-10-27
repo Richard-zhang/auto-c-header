@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate the Header File",
+        "command": "auto-c-header:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "auto-c-header",
+          "submenu": [
+            {
+              "label": "Generate the Header File",
+              "command": "Generate the Header File for the current C file"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
